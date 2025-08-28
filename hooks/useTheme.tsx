@@ -1,8 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { createContext, ReactNode, useContext, useEffect, useState } from "react";
 
-// AsyncStorage is React Native’s simple, promise-based API for persisting small bits of data on a user’s device. Think of it as the mobile-app equivalent of the browser’s localStorage, but asynchronous and cross-platform.
-
 export interface ColorScheme {
   bg: string;
   surface: string;
@@ -71,7 +69,7 @@ const darkColors: ColorScheme = {
   danger: "#f87171",
   shadow: "#000000",
   gradients: {
-    background: ["#0f172a", "#1e293b"],
+    background: ["#000000ff", "#1e293b"],
     surface: ["#1e293b", "#334155"],
     primary: ["#3b82f6", "#1d4ed8"],
     success: ["#10b981", "#059669"],
