@@ -50,7 +50,7 @@ export const createSettingsStyles = (colors: ColorScheme) => {
       },
       shadowOpacity: 0.1,
       shadowRadius: 8,
-      elevation: 8, // elevation is used to create a shadow on the section, in android
+      elevation: 8,
     },
     sectionTitle: {
       fontSize: 20,
